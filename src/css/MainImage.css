@@ -1,0 +1,67 @@
+.MainImage {
+    background-image: url(../images/MainImage70.jpg);
+    background-attachment: fixed;
+    height: 93vh;
+    background-size: cover;
+    background-position: bottom center;
+    
+}
+
+
+/* YA NO USAREMOS EFECTO DE OPACIDAD, YA QUE LE PETIMOS A LA IMAGEN DEFRENTE */
+
+/* .MainImage::after {
+    content: "";  Obligatorio para que el pseudoelemento se muestre 
+    position:absolute;  Posiciona el pseudoelemento encima de la imagen 
+    top: 0;
+    left: 0;
+    width: 100%;  Ajusta el tamaño del pseudoelemento al tamaño del contenedor 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Color negro semitransparente 
+    opacity: 0.6; Opacidad del 50% 
+} */
+
+
+.h1 {
+    font-size: 4rem;
+    color: white;
+    cursor:default;
+}
+
+.h2 {
+    font-size: 2.5rem;
+    color: white;
+    cursor:default;
+}
+
+
+/* EL TITULO ESTA BIEN, PERO SE VA UN POCO A LA DERECHA AL ACHICAR, FALTA ESO NOMAS, Y SE ARREGLO PONIENDO MARGIN DE BOOSTRAP eN VEZ DEL MARGIN MANUAL */
+@media (max-width: 870px) {
+    .h1{
+        font-size: 3.5rem;
+    }
+    .h2{
+        font-size: 2.5rem;
+    }
+    .MainImage{
+        height: 100vh;
+    }
+}
+
+
+/* YA NO USAMO, LO CAMBIAMOS POR CLASES BOOTSTRAP DE POSITION */
+/* .title-container {
+    position: absolute;
+    top: 50%;  Alinea el contenedor de los títulos verticalmente en el centro 
+    left: 50%;  Alinea el contenedor de los títulos horizontalmente en el centro 
+    transform: translate(-50%, -50%); /* Centra el contenedor de los títulos 
+    text-align: center;  Alinea los títulos en el centro 
+    color: white;  Color de texto para los títulos 
+    max-width: 90%;  Define un ancho máximo para evitar que los títulos se salgan de la pantalla en dispositivos pequeños 
+} */
+
+
+
+
+
+

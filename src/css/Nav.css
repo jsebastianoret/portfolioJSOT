@@ -1,0 +1,35 @@
+.ul{
+    /* background-color:rgb(28, 26, 26); */
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    font-family: Montserrat,sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+/* En vez de poner por defecto "text-white" de clase.
+Gracias a sus variables, puedo editarlo sin tener problema o conflicto */
+
+.nav-link{
+    --bs-nav-link-color:white;
+    --bs-nav-link-hover-color:rgba(255, 255, 255, 0.50);
+
+}
+
+.navs-a{
+    letter-spacing: .1rem;
+}
+
+
+/* .navv{
+    position: sticky;
+    top: 0;
+    margin: 0;
+    z-index: 50000;
+} */
+
+/* .asd{
+    text-align: center; //Se cambia por text-center en Boostrap
+} */

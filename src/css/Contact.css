@@ -1,0 +1,52 @@
+.socials a{
+    text-decoration: none;
+    border: none;
+}
+
+.i-contact{
+    font-size: 1.5rem;
+    /* background-color:red;    */
+    color: rgb(255, 255, 255);
+}
+
+/* hay un hover en boostrap  */
+.socials a:hover{
+    background-color: aliceblue;
+    transition: all .5s ease;
+    .i-contact{
+        color: black;
+        transition: all .5s ease;
+    }
+}
+
+.bk-color{
+    background-color: black;
+}
+
+.ppy-2{
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+}
+
+.ppx-2{
+    padding-right: .6rem;
+    padding-left: .6rem;
+}
+
+.mmx-2{
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.round-f{
+    border-radius: 9999px;
+}
+
+
+
+
+
+
+
+
+
