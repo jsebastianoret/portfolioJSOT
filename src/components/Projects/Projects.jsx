@@ -34,7 +34,7 @@ export default function Projects() {
                     description="Un servicio web hecho con NodeJS conectado a una Base de Datos en MySql."
                 />
                 <ProjectComponent
-                    src="src\images\as2.png"
+                    src="src\images\as2Image.png"
                     title= "BackEnd Android"
                     description="Un Servicio web hecho en Spring Boot, para un proyecto en Android Studio conectado a una base de datos MySQL."
                 />
