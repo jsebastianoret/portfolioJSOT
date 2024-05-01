@@ -36,22 +36,22 @@ export default function Projects() {
                 <ProjectComponent
                     src={as}
                     title= "Node-Express-MySql-Master"
-                    description="Un servicio web hecho con NodeJS conectado a una Base de Datos en MySql."
+                    description="A web service made with NodeJS connected to a MySql Database."
                 />
                 <ProjectComponent
                     src={as2}
                     title= "BackEnd Android"
-                    description="Un Servicio web hecho en Spring Boot, para un proyecto en Android Studio conectado a una base de datos MySQL."
+                    description="A Web Service made in Spring Boot, for a project in Android Studio connected to a MySQL database."
                 />
                 <ProjectComponent
                     src={as3}
                     title= "OAuth2.0"
-                    description="Incluye 2 proyectos hechos en Spring Boot, el primero el Oauth.Server donde sera un servicio web conectado a Mysql creando usuarios, un LOGIN, roles y un Client. Y el segundo proyecto es el Resource-Server donde probamos el token entregado."
+                    description="It includes 2 projects made in Spring Boot, the first is Oauth.Server where it will be a web service connected to Mysql creating users, a LOGIN, roles and a Client. And the second project is the Resource-Server where we test the delivered token."
                 />
                 <ProjectComponent
                     src={as4}
-                    title= "Encriptar-Desencriptar"
-                    description="Un proyecto hecho con Python, es basico pero necesario. Basicamente pordemo encriptar con la ayuda de ASCII cualquier archivo de texto donde podamos tener informacion confidencial, y desencriptarlo si lo deseamos."
+                    title= "Encrypt - Decrypt"
+                    description="A project made with Python is basic but necessary. Basically we can encrypt with the help of ASCII any text file where we may have confidential information, and decrypt it if we wish."
                 />
 
             {/* LE FALTA MAS DIV Y NOSE =>  */}
