@@ -29,7 +29,7 @@ export default function Projects() {
             <div className='row mb-5 pb-4'>
 
                 <ProjectComponent
-                    src="src\images\as.png"
+                    src="src\assets\as.png"
                     title= "Node-Express-MySql-Master"
                     description="Un servicio web hecho con NodeJS conectado a una Base de Datos en MySql."
                 />
