@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../css/Contact.css'
+import pdf from '../../../public/pdf/JSebasOT_CV.pdf'
 
 export default function Contact() {
   return (
@@ -36,7 +37,7 @@ export default function Contact() {
                 <i className ="i-contact bi bi-linkedin text-blackk" aria-hidden="true"></i>
             </a>
 
-            <a className='bk-color ppy-2 ppx-2 mmx-2 round-f' download={"my-cv"} href='/pdf/JSebasOT_CV.pdf' target='_blank' title='CV'>
+            <a className='bk-color ppy-2 ppx-2 mmx-2 round-f' download={"my-cv"} href={pdf} target='_blank' title='CV'>
                 <i className="i-contact bi bi-filetype-pdf text-blackk" aria-hidden="true" ></i>
             </a>
 

@@ -2,6 +2,24 @@ import React from 'react'
 import '../../css/Skill.css'
 import SkillComponent from './SkillComponent'
 
+import htmlcss from '../../images/html-css.jpg'
+
+import react from '../../images/react-icon.png'
+
+import js from '../../images/js.png'
+
+import git from '../../images/git_icon.png'
+
+import py from '../../images/py-icon.png'
+
+import springb from '../../images/spring-boot-logo.png'
+
+import db from '../../images/database-icon.jpg'
+
+import node from '../../images/nodejs-icon.png'
+
+
+
 export default function SkillSet() {
   return (
     <>
@@ -34,42 +52,42 @@ export default function SkillSet() {
 
 
       <SkillComponent
-        src="src\images\html-css.jpg"
+        src={htmlcss}
         alt = "HTML-CSS"
         title = "HTML-CSS"
       />
       <SkillComponent
-        src="src\images\react-icon.png"
+        src={react}
         alt = "React JS"
         title = "React JS"
       />
       <SkillComponent
-        src="src\images\js.png"
+        src={js}
         alt = "Javascript"
         title = "Javascript"
       />
       <SkillComponent
-        src="src\images\git_icon.png"
+        src={git}
         alt = "Git"
         title = "Git"
       />
       <SkillComponent
-        src="src\images\py-icon.png"
+        src={py}
         alt = "Python"
         title = "Python"
       />
        <SkillComponent
-        src="src\images\spring-boot-logo.png"
+        src={springb}
         alt = "Spring Boot"
         title = "Spring Boot"
       />
        <SkillComponent
-        src="src\images\database-icon.jpg"
+        src={db}
         alt = "Data Bases"
         title = "Data Bases"
       />
        <SkillComponent
-        src="src\images\nodejs-icon.png"
+        src={node}
         alt = "Node JS"
         title = "Node JS"
       />
