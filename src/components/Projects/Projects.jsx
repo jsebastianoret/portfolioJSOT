@@ -1,6 +1,11 @@
 import React from 'react'
 import '../../css/Projects.css'
 import ProjectComponent from './ProjectComponent'
+import as from '../../images/as.png'
+import as2 from '../../images/as2Image.png'
+import as3 from '../../images/as3.png'
+import as4 from '../../images/as4.png'
+
 
 export default function Projects() {
   return (
@@ -27,24 +32,24 @@ export default function Projects() {
             {/* Y OTRO ROW PARA YA LAS CARDS, PORQUE CADA ROW ES CADA LINEA PEEEEEEE */}
 
             <div className='row mb-5 pb-4'>
-
+            
                 <ProjectComponent
-                    src="../images/as.png"
+                    src={as}
                     title= "Node-Express-MySql-Master"
                     description="Un servicio web hecho con NodeJS conectado a una Base de Datos en MySql."
                 />
                 <ProjectComponent
-                    src="src\images\as2Image.png"
+                    src={as2}
                     title= "BackEnd Android"
                     description="Un Servicio web hecho en Spring Boot, para un proyecto en Android Studio conectado a una base de datos MySQL."
                 />
                 <ProjectComponent
-                    src="src\images\as3.png"
+                    src={as3}
                     title= "OAuth2.0"
                     description="Incluye 2 proyectos hechos en Spring Boot, el primero el Oauth.Server donde sera un servicio web conectado a Mysql creando usuarios, un LOGIN, roles y un Client. Y el segundo proyecto es el Resource-Server donde probamos el token entregado."
                 />
                 <ProjectComponent
-                    src="src\images\as4.png"
+                    src={as4}
                     title= "Encriptar-Desencriptar"
                     description="Un proyecto hecho con Python, es basico pero necesario. Basicamente pordemo encriptar con la ayuda de ASCII cualquier archivo de texto donde podamos tener informacion confidencial, y desencriptarlo si lo deseamos."
                 />
